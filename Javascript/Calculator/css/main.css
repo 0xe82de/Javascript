@@ -1,0 +1,35 @@
+.css-table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.css-table th {
+  text-align: center;
+  border: 1px solid;
+}
+
+.css-formula,
+.css-result {
+  text-align: right;
+  padding: 30px;
+}
+
+.css-table td:not(.css-result, .css-formula) {
+  text-align: center;
+}
+
+.css-table td {
+  border: 1px solid;
+  width: 50px;
+  padding: 15px;
+}
+
+.css-table td button {
+  border: none;
+  background-color: white;
+  padding: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+}
