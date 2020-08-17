@@ -8,13 +8,17 @@
   border: 1px solid;
 }
 
-.css-formula,
+.css-tmpResult,
 .css-result {
   text-align: right;
   padding: 30px;
 }
 
-.css-table td:not(.css-result, .css-formula) {
+td[colspan="2"] {
+  text-align: center;
+}
+
+.css-table td:not(.css-result, .css-tmpResult) {
   text-align: center;
 }
 

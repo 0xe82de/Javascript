@@ -10,46 +10,74 @@
     <table class="css-table js-table">
       <th colspan="4">계산기</th>
       <tr>
-        <td colspan="4" class="css-formula">0</td>
+        <td colspan="4" class="css-tmpResult" id="js-tmpResult">0</td>
       </tr>
       <tr>
         <td colspan="4" class="css-result" id="js-result">0</td>
       </tr>
       <tr>
-        <td>null</td>
-        <td>null</td>
-        <td><button onclick="clear()">C</button></td>
-        <td><button onclick="back()"><</button></td>
+        <td>
+          <button onclick='whatKey("7")'>7</button>
+        </td>
+        <td>
+          <button onclick='whatKey("8")'>8</button>
+        </td>
+        <td>
+          <button onclick='whatKey("9")'>9</button>
+        </td>
+        <td>
+          <button onclick='whatKey("/")'>/</button>
+        </td>
       </tr>
       <tr>
-        <td>null</td>
-        <td>null</td>
-        <td>null</td>
-        <td><button onclick='isNum("/")'>/</button></td>
+        <td>
+          <button onclick='whatKey("4")'>4</button>
+        </td>
+        <td>
+          <button onclick='whatKey("5")'>5</button>
+        </td>
+        <td>
+          <button onclick='whatKey("6")'>6</button>
+        </td>
+        <td>
+          <button onclick='whatKey("X")'>X</button>
+        </td>
       </tr>
       <tr>
-        <td><button onclick='isNum("7")'>7</button></td>
-        <td><button onclick='isNum("8")'>8</button></td>
-        <td><button onclick='isNum("9")'>9</button></td>
-        <td><button onclick='isNum("X")'>X</button></td>
+        <td>
+          <button onclick='whatKey("1")'>1</button>
+        </td>
+        <td>
+          <button onclick='whatKey("2")'>2</button>
+        </td>
+        <td>
+          <button onclick='whatKey("3")'>3</button>
+        </td>
+        <td>
+          <button onclick='whatKey("-")'>-</button>
+        </td>
       </tr>
       <tr>
-        <td><button onclick='isNum("4")'>4</button></td>
-        <td><button onclick='isNum("5")'>5</button></td>
-        <td><button onclick='isNum("6")'>6</button></td>
-        <td><button onclick='isNum("-")'>-</button></td>
+        <td>
+          <button onclick='whatKey("0")'>0</button>
+        </td>
+        <td>
+          <button onclick='whatKey(".")'>.</button>
+        </td>
+        <td>
+          <button onclick='whatKey("<")'><</button>
+        </td>
+        <td>
+          <button onclick='whatKey("+")'>+</button>
+        </td>
       </tr>
       <tr>
-        <td><button onclick='isNum("1")'>1</button></td>
-        <td><button onclick='isNum("2")'>2</button></td>
-        <td><button onclick='isNum("3")'>3</button></td>
-        <td><button onclick='isNum("+")'>+</button></td>
-      </tr>
-      <tr>
-        <td>null</td>
-        <td><button onclick='isNum("0")'>0</button></td>
-        <td><button onclick='isNum(".")'>.</button></td>
-        <td><button onclick='isNum("=")'>=</button></td>
+        <td colspan="2">
+          <button onclick='whatKey("C")'>C</button>
+        </td>
+        <td colspan="2">
+          <button onclick='whatKey("=")'>=</button>
+        </td>
       </tr>
     </table>
     <script src="./js/main.js"></script>
